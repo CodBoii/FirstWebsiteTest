@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+===================================================================================
+==================================== NAV BAR ======================================
+===================================================================================
+*/
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color:#cafdff;
+    transition-duration: 1s;
+}
+
+nav:hover{
+    background-color: cornflowerblue;
+}
+
+ul{
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 16px;
+}
+
+.logo {
+    width: 64px;
+}
+
+.navLink {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*
+===================================================================================
+==================================== HEADER =======================================
+===================================================================================
+*/
+
+header{
+    background-color: #eadcff;
+    height: calc(100vh - 70px);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size:72px;
+}
+
+.Header__Paragraph {
+    font-size: 24px;
+    margin: 16px 0 24px 0;
+}
+
+.Row__Header {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header__Images{
+    border-radius: 50%;
+    padding-left: 24px;
+}
+/*
+===================================================================================
+===================================== MAIN ========================================
+===================================================================================
+*/
+
+h2{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.Row__Main {
+    margin: 0 auto;
+}
+
+.Row__Main__Wrapper  {
+    width:60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.Image__Wrapper {
+    width: 60%;
+}
+
+.Main__Images {
+    width: 100%;
+}
+
+.Main__Pragraph {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.Row__Main__Wrapper,
+.Image__Wrapper {
+    padding: 0 24px;
+}
+
+/*
+===================================================================================
+===================================== ABOUT =======================================
+===================================================================================
+*/
+
+#section2 {
+    background-color: #f8ffdc;
+    padding: 48px 0;
+}
+
+/*
+===================================================================================
+==================================== PROJECTS =====================================
+===================================================================================
+*/
+
+#section3 {
+    background-color: #cefeff;
+    padding: 48px 0;
+}
+
+/*
+===================================================================================
+==================================== CONTACT ======================================
+===================================================================================
+*/
+
+#section4 {
+    background-color: #dce9ff;
+    padding: 48px 0;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input,
+textarea {
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+    border: solid 4px;
+    border-color: #05c7cf;
+    cursor: pointer;
+    transition-duration: 0.7s;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+input:hover,
+textarea:hover {
+    border-color: cornflowerblue;
+}
+button {
+    background-color: #05c7cf;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition-duration: 0.7s;
+}
+
+button:hover{
+    background-color: white;
+    color: #05c7cf;
+}
+
+/*
+===================================================================================
+==================================== FOOTER =======================================
+===================================================================================
+*/
+
+footer{
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.Footer__Logo {
+    width: 64px;
+    margin-bottom: 16px;
+}
+
+.Footer__Links {
+    margin-bottom: 32px;
+}
+
+.Footer__Link {
+    padding: 0 16px;
+    color: black;
+    font-size: 24px;
+}
